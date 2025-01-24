@@ -23,9 +23,6 @@ pip install -r requirements.txt
 
 ## increase timeout on pip
 > pip install face-recognition --default-timeout=100
-> Cmake is needed for face-recognition
-> Ferramentas de compilação do Microsoft C++
-
-## Install pre-commit for automate freeze
-> pip install pre-commit
-> create a file named pre-commit-config.yaml
+> Cmake may be needed for face-recognition
+> Microsoft C++ compiling tools
+> May be necessary install dlib before using the wheel: dlib-19.24.1-cp311-cp311-win_amd64.whl
